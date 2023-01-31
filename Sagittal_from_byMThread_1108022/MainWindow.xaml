@@ -1,0 +1,59 @@
+﻿<Window x:Class="Sagittal_from_byMThread_1108022.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sagittal_from_byMThread_1108022"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0"  Grid.Column="0"
+            Orientation="Horizontal">
+            <Label Content="Input-image"/>
+            <Label Content="X"/>
+            <TextBlock x:Name="x1" />
+            <Label Content="Y"/>
+            <TextBlock x:Name="y1" />
+        </StackPanel>
+        <Label Grid.Row="0" Grid.Column="1"
+            Content="Output-image"    />
+
+        <!--#region Axial Image View  Grid.Coloumn=0  -->
+        <Grid Grid.Row="1" Grid.Column="0"  
+              PreviewMouseWheel="axial_PreviewMouseWheel" Background="LightBlue">
+
+            <ScrollViewer x:Name="axial"  >
+                <Image x:Name="inputImage2"   />
+            </ScrollViewer>
+        </Grid>
+        <Button Content="Load-image" Grid.Row="2" Grid.Column="0"
+                Click="Button_Click" ToolTip="provide Axial.bmp images folder"/>
+        <!--#endregion-->
+
+        <!--#region Coronal  Image View  Grid.Coloumn=0  -->
+        <ScrollViewer Grid.Row="1" Grid.Column="1" x:Name="segittal"   >
+            <Image  x:Name="segittalImage"   />
+        </ScrollViewer>
+        <StackPanel  Grid.Column="1" Grid.Row="2" 
+                     Orientation="Horizontal">
+            <Button x:Name="Sagittal" Content="Sagittal-View" 
+                Click="Sagittal_Click" ToolTip="this will generate Sagittal.bmp Images from Axials.bmp at Desktop/SegittalImagesLockBitUnsafe"
+                Width="100"/>
+            <Button x:Name="del_sagittal_balank" Content="Del_Blank"
+                    Click="del_sagittal_balank_Click" Width="90"/>
+        </StackPanel>
+        <!--#endregion-->
+
+    </Grid>
+</Window>

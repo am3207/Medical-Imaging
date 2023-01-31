@@ -1,0 +1,15 @@
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\bin\Debug\Sagittal_from_byMThread_1108022.exe.config
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\bin\Debug\Sagittal_from_byMThread_1108022.exe
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\bin\Debug\Sagittal_from_byMThread_1108022.pdb
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\obj\Debug\Sagittal_from_byMThread_1108022.csproj.AssemblyReference.cache
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\obj\Debug\MainWindow.g.cs
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\obj\Debug\App.g.cs
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\obj\Debug\Sagittal_from_byMThread_1108022_MarkupCompile.cache
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\obj\Debug\Sagittal_from_byMThread_1108022_MarkupCompile.lref
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\obj\Debug\MainWindow.baml
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\obj\Debug\Sagittal_from_byMThread_1108022.g.resources
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\obj\Debug\Sagittal_from_byMThread_1108022.Properties.Resources.resources
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\obj\Debug\Sagittal_from_byMThread_1108022.csproj.GenerateResource.cache
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\obj\Debug\Sagittal_from_byMThread_1108022.csproj.CoreCompileInputs.cache
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\obj\Debug\Sagittal_from_byMThread_1108022.exe
+C:\Users\91993\source\repos\Sagittal_from_byMThread_1108022\Sagittal_from_byMThread_1108022\obj\Debug\Sagittal_from_byMThread_1108022.pdb
